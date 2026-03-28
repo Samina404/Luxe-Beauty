@@ -1,0 +1,62 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "title": "Hair Styling",
+            "description": "Expert cuts, colors, and treatments for your perfect look",
+            "image": "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+            "id": 2,
+            "title": "Makeup & Bridal",
+            "description": "Flawless makeup for every occasion, including bridal",
+            "image": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+            "id": 3,
+            "title": "Skin Care",
+            "description": "Rejuvenating facials and advanced skin treatments",
+            "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+            "id": 4,
+            "title": "Nail Art",
+            "description": "Creative manicures and pedicures with artistic flair",
+            "image": "https://i.pinimg.com/originals/17/86/6a/17866ad04da8c0fdbe59c31aec47b8a9.jpg"
+        }
+    ],
+    "testimonials": [
+        {
+            "id": 1,
+            "name": "Sarah Johnson",
+            "service": "Bridal Makeup",
+            "rating": 5,
+            "review": "The team made me feel like a queen on my wedding day. Absolutely stunning work!",
+            "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Asami Silva",
+            "service": "Hair Styling",
+            "rating": 5,
+            "review": "Best salon experience ever. The stylists are true artists. My hair has never looked better.",
+            "avatar": "https://randomuser.me/api/portraits/women/65.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Priya Perera",
+            "service": "Facial Treatment",
+            "rating": 5,
+            "review": "My skin has never glowed like this! The facials here are absolutely transformative.",
+            "avatar": "https://randomuser.me/api/portraits/women/68.jpg"
+        }
+    ],
+    "gallery": [
+        "https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=400&q=80",
+        "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=400&q=80",
+        "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=400&q=80",
+        "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=400&q=80",
+        "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=400&q=80",
+        "https://i.pinimg.com/originals/17/86/6a/17866ad04da8c0fdbe59c31aec47b8a9.jpg"
+    ]
+}

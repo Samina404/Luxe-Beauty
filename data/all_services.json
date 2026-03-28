@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "title": "Hair Cut & Styling",
+        "description": "Professional cuts tailored to your face shape and style preferences",
+        "duration": "45-60 min",
+        "price": "3,500",
+        "image": "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+        "id": 2,
+        "title": "Hair Coloring",
+        "description": "From subtle highlights to bold transformations",
+        "duration": "2-3 hours",
+        "price": "8,000",
+        "image": "https://tse4.mm.bing.net/th/id/OIP.N3f-B3bJzsz6Rnz5wmth5wHaLK?rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+        "id": 3,
+        "title": "Hair Treatments",
+        "description": "Deep conditioning, keratin, and repair treatments",
+        "duration": "60-90 min",
+        "price": "5,000",
+        "image": "https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+        "id": 4,
+        "title": "Bridal Makeup",
+        "description": "Complete bridal package with trial session",
+        "duration": "3-4 hours",
+        "price": "25,000",
+        "image": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+        "id": 5,
+        "title": "Party Makeup",
+        "description": "Glamorous looks for special occasions",
+        "duration": "60-90 min",
+        "price": "8,000",
+        "image": "https://tse1.explicit.bing.net/th/id/OIP.uuuspKFYV9GIg8JhhFHdYwHaI4?rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+        "id": 6,
+        "title": "Makeup Lessons",
+        "description": "Learn professional techniques from our experts",
+        "duration": "2 hours",
+        "price": "12,000",
+        "image": "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+        "id": 7,
+        "title": "Classic Facial",
+        "description": "Deep cleansing and hydrating facial treatment",
+        "duration": "60 min",
+        "price": "4,500",
+        "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+        "id": 8,
+        "title": "Anti-Aging Treatment",
+        "description": "Advanced treatments for youthful, radiant skin",
+        "duration": "90 min",
+        "price": "12,000",
+        "image": "https://tse1.explicit.bing.net/th/id/OIP.6Z7lfBKiJlumiGYT1cfoyQHaGN?rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+        "id": 9,
+        "title": "Spa Package",
+        "description": "Complete relaxation with facial, massage, and body treatments",
+        "duration": "2-3 hours",
+        "price": "18,000",
+        "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+        "id": 10,
+        "title": "Classic Manicure",
+        "description": "Professional nail care with polish",
+        "duration": "45 min",
+        "price": "2,500",
+        "image": "https://i.pinimg.com/originals/17/86/6a/17866ad04da8c0fdbe59c31aec47b8a9.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Gel Nails",
+        "description": "Long-lasting gel polish and nail extensions",
+        "duration": "60-90 min",
+        "price": "6,000",
+        "image": "https://i.pinimg.com/originals/17/86/6a/17866ad04da8c0fdbe59c31aec47b8a9.jpg"
+    },
+    {
+        "id": 12,
+        "title": "Nail Art",
+        "description": "Creative custom nail designs",
+        "duration": "60 min",
+        "price": "2,500",
+        "image": "https://i.pinimg.com/originals/17/86/6a/17866ad04da8c0fdbe59c31aec47b8a9.jpg"
+    }
+]

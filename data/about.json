@@ -1,0 +1,68 @@
+{
+    "journey": [
+        {
+            "year": "2018",
+            "title": "Foundation",
+            "description": "Luxe Beauty was born in Colombo"
+        },
+        {
+            "year": "2020",
+            "title": "Expansion",
+            "description": "Opened our flagship salon"
+        },
+        {
+            "year": "2023",
+            "title": "Recognition",
+            "description": "Won Best Beauty Salon Award"
+        },
+        {
+            "year": "2026",
+            "title": "Innovation",
+            "description": "Introduced cutting-edge treatments"
+        }
+    ],
+    "values": [
+        {
+            "icon": "fa-award",
+            "title": "Excellence",
+            "description": "We strive for perfection in every service we provide"
+        },
+        {
+            "icon": "fa-users",
+            "title": "Community",
+            "description": "Building lasting relationships with our clients"
+        },
+        {
+            "icon": "fa-heart",
+            "title": "Passion",
+            "description": "Dedicated to making you feel beautiful inside and out"
+        },
+        {
+            "icon": "fa-lightbulb",
+            "title": "Innovation",
+            "description": "Always bringing the latest trends and techniques"
+        }
+    ],
+    "experts": [
+        {
+            "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80",
+            "name": "Amara Silva",
+            "role": "Master Stylist"
+        },
+        {
+            "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=80",
+            "name": "Priya Perera",
+            "role": "Lead Makeup Artist"
+        },
+        {
+            "image": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=600&q=80",
+            "name": "Shalini Fernando",
+            "role": "Skin Care Specialist"
+        },
+        {
+            "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=600&q=80",
+            "name": "Nina Jayawardena",
+            "role": "Nail Technician"
+        }
+    ]
+}

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Luxe Beauty - Contact Us">
+    <title>Luxe Beauty - Contact</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-white">
+
+    <!-- Header & Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar navbar-solid">
+        <div class="container-fluid px-4 px-md-5">
+            <a class="navbar-brand" href="index.html">
+                <span class="brand-title d-block font-montserrat">Luxe Beauty</span>
+                <span class="brand-subtitle d-block font-montserrat text-uppercase">SRI LANKA</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav font-montserrat mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="service.html">Service</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="d-none d-lg-block">
+                <a href="booking.html" class="btn btn-book-glow px-4 py-2 font-montserrat">Book Your Glow</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header Sections -->
+    <section class="page-header text-center bg-light-pink-flat">
+        <div class="container">
+            <h1 class="font-playfair section-heading">Get In Touch</h1>
+            <div class="heading-underline mb-4"></div>
+            <p class="font-montserrat text-muted mx-auto" style="max-width: 500px">We'd love to hear from you. Reach out
+                for bookings, inquiries, or just to say hello!</p>
+        </div>
+    </section>
+
+    <!-- Info Blocks Section -->
+    <section class="py-5 bg-white">
+        <div class="container mt-4 mb-3">
+            <div class="row text-center g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="contact-info-block">
+                        <div class="ci-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <h4 class="font-playfair">Visit Us</h4>
+                        <p class="font-montserrat text-muted small">123 Beauty Lane,<br>Colombo 07, Sri Lanka</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="contact-info-block">
+                        <div class="ci-icon"><i class="fa-solid fa-phone"></i></div>
+                        <h4 class="font-playfair">Call Us</h4>
+                        <p class="font-montserrat text-muted small">+94 77 123 4567</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="contact-info-block">
+                        <div class="ci-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <h4 class="font-playfair">Email Us</h4>
+                        <p class="font-montserrat text-muted small">info@luxebeauty.lk</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="contact-info-block">
+                        <div class="ci-icon"><i class="fa-regular fa-clock"></i></div>
+                        <h4 class="font-playfair">Opening Hours</h4>
+                        <p class="font-montserrat text-muted small">Mon - Sun: 9:00 AM - 8:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form and Map Section -->
+    <section class="py-5 contact-section-bg">
+        <div class="container my-4">
+            <div class="row g-5">
+                <!-- Contact Form -->
+                <div class="col-lg-6">
+                    <div class="contact-form-area bg-white p-5 rounded-4 shadow-sm h-100">
+                        <h3 class="font-playfair mb-4 fs-2">Send Us a Message</h3>
+                        <form id="contactForm">
+                            <div class="mb-4">
+                                <label for="name" class="form-label font-montserrat text-dark fs-6">Your Name</label>
+                                <input type="text" class="form-control custom-input" id="name"
+                                    placeholder="Enter your name" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="form-label font-montserrat text-dark fs-6">Email
+                                    Address</label>
+                                <input type="email" class="form-control custom-input" id="email"
+                                    placeholder="your@email.com" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="subject" class="form-label font-montserrat text-dark fs-6">Subject</label>
+                                <input type="text" class="form-control custom-input" id="subject"
+                                    placeholder="How can we help?" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="message" class="form-label font-montserrat text-dark fs-6">Message</label>
+                                <textarea class="form-control custom-input" id="message" rows="4"
+                                    placeholder="Your message here..." required></textarea>
+                            </div>
+                            <button type="submit"
+                                class="btn-cta-glow w-100 py-3 mt-2 d-flex justify-content-center align-items-center">
+                                <i class="fa-regular fa-paper-plane me-2"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <!-- Map and Social -->
+                <div class="col-lg-6 d-flex flex-column">
+                    <div class="map-placeholder bg-light rounded-4 w-100 mb-4">
+                        <!-- Embed Google Maps Here -->
+                    </div>
+                    <div>
+                        <h4 class="font-playfair mb-3">Follow Us</h4>
+                        <div class="d-flex gap-3 mb-3">
+                            <a href="#" class="brand-social-icon bsi-fb"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="brand-social-icon bsi-ig"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="brand-social-icon bsi-tw"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <p class="font-montserrat text-muted small">Stay updated with our latest work, offers, and
+                            beauty tips on social media!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section py-5">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h2 class="font-playfair section-heading text-white">Frequently Asked Questions</h2>
+                <div class="heading-underline faq-underline mb-4"></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="faq-list">
+                        <!-- FAQ Items -->
+                        <div class="faq-item p-4 rounded-3 mb-3">
+                            <h5 class="faq-question font-playfair mb-2">Do I need an appointment?</h5>
+                            <p class="faq-answer font-montserrat mb-0 text-white-50">Yes, we recommend booking in
+                                advance to ensure availability. Walk-ins are welcome subject to availability.</p>
+                        </div>
+                        <div class="faq-item p-4 rounded-3 mb-3">
+                            <h5 class="faq-question font-playfair mb-2">What payment methods do you accept?</h5>
+                            <p class="faq-answer font-montserrat mb-0 text-white-50">We accept cash, all major credit
+                                cards, and mobile payment methods.</p>
+                        </div>
+                        <div class="faq-item p-4 rounded-3 mb-3">
+                            <h5 class="faq-question font-playfair mb-2">Do you offer bridal packages?</h5>
+                            <p class="faq-answer font-montserrat mb-0 text-white-50">Yes! We offer comprehensive bridal
+                                packages including trial sessions. Contact us for details.</p>
+                        </div>
+                        <div class="faq-item p-4 rounded-3 mb-3">
+                            <h5 class="faq-question font-playfair mb-2">What products do you use?</h5>
+                            <p class="faq-answer font-montserrat mb-0 text-white-50">We use only premium,
+                                internationally recognized beauty brands to ensure the best results.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer pt-5 pb-3">
+        <div class="container">
+            <div class="row g-4 mb-4">
+                <div class="col-md-6 col-lg-3">
+                    <h3 class="footer-brand font-playfair mb-3">Luxe Beauty</h3>
+                    <p class="footer-text font-montserrat mb-4">Where beauty meets perfection. Experience luxury beauty
+                        services in the heart of Sri Lanka.</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-btn"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="social-btn"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-btn"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h4 class="footer-heading font-playfair mb-3">Quick Links</h4>
+                    <ul class="list-unstyled footer-links font-montserrat">
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="service.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h4 class="footer-heading font-playfair mb-3">Our Services</h4>
+                    <ul class="list-unstyled footer-links font-montserrat">
+                        <li><a href="service.html">Hair Styling & Color</a></li>
+                        <li><a href="service.html">Makeup & Bridal</a></li>
+                        <li><a href="service.html">Skin Care & Facials</a></li>
+                        <li><a href="service.html">Nail Art & Manicure</a></li>
+                        <li><a href="service.html">Spa Treatments</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h4 class="footer-heading font-playfair mb-3">Contact Us</h4>
+                    <ul class="list-unstyled footer-contact font-montserrat">
+                        <li><i class="fa-solid fa-location-dot"></i> <span>123 Beauty Lane, Colombo 07,<br>Sri
+                                Lanka</span></li>
+                        <li><i class="fa-solid fa-phone"></i> <span>+94 77 123 4567</span></li>
+                        <li><i class="fa-regular fa-envelope"></i> <span>info@luxebeauty.lk</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                class="footer-bottom pt-3 mt-4 d-flex flex-column flex-md-row justify-content-between align-items-center font-montserrat">
+                <p class="mb-2 mb-md-0">&copy; 2026 Luxe Beauty. Made with <i class="fa-solid fa-heart text-pink"></i>
+                    in Sri Lanka</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
